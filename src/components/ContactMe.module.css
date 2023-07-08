@@ -5,7 +5,8 @@
     padding: 50px 50px 0 50px;
     min-height: 100vh;
     width: 100%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+    background: linear-gradient(to bottom, rgba(48, 48, 48, 0.688) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -13,8 +14,9 @@
 .c {
     font-family: 'Varela Round', sans-serif;
     font-weight: bold;
-    color: #333;
+    color: var(--links);
     text-align: center;
+    margin: 30px 0;
 }
 
 .contact h1 {
@@ -86,7 +88,7 @@
     width: 60%;
     position: relative;
     border-radius: var(--bd-radius);
-    border: 3px solid var(--hover);
+    border: 3px solid var(--hover-b);
     transition: all 0.3s ease;
 }
 
@@ -140,7 +142,7 @@
 .contact form button {
     padding: 0 1rem;
     font-weight: bold;
-    color: var(--hover);
+    color: var(--hover-b);
     border-radius: var(--bd-radius);
     background-color: transparent;
     border: 3px solid var(--links);
@@ -167,7 +169,6 @@
 }
 
 .error {
-    /* min-width: 10px; */
     color: red;
     letter-spacing: 1px;
     font-family: 'Varela Round', sans-serif;
@@ -255,8 +256,6 @@
 
     .c {
         font-size: 0.8rem;
-        color: var(--links);
-        margin: 30px 0;
     }
 
 }
