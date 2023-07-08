@@ -82,7 +82,7 @@ h1 a:hover {
     }
 
     .nav_btn.openb .ham:nth-child(1) {
-        transform: translateY(10px) rotate(45deg);
+        transform: translateY(11.8px) rotate(45deg);
     }
 
     .nav_btn.openb .ham:nth-child(2) {

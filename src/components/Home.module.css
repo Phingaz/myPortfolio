@@ -23,7 +23,8 @@
 
 .name h1 {
     letter-spacing: 5px;
-    font-size: 6rem;
+    font-size: 5rem;
+    text-align: center;
 }
 
 .highlight {
@@ -87,7 +88,7 @@
     width: 100%;
     min-height: 70px;
     position: absolute;
-    bottom: 5rem;
+    bottom: 4rem;
     left: 0;
 }
 
@@ -118,6 +119,10 @@
 
     .name h1 {
         font-size: 2.9rem;
+    }
+
+    .info > * {
+        font-size: 0.8rem;
     }
 }
 

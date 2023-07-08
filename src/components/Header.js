@@ -16,7 +16,7 @@ export const Header = () => {
                 <span className={styled.ham}></span>
                 <span className={styled.ham}></span>
             </button>
-            <h1>
+            <h1 onClick={() => (setSh(false))}>
                 <HashLink
                     smooth
                     to="/#">
@@ -25,28 +25,35 @@ export const Header = () => {
             </h1>
             <nav className={`${styled.nav} ${sh ? styled.open : styled.closed}`}>
                 <ul className={styled.nav_links}>
-                    <li onClick={shoNa}>
+                    <li onClick={() => (setSh(false))}>
+                        <HashLink
+                            smooth
+                            to="/#">
+                            Home
+                        </HashLink>
+                    </li>
+                    <li onClick={() => (setSh(false))}>
                         <HashLink
                             smooth
                             to="#about">
                             About
                         </HashLink>
                     </li>
-                    <li onClick={shoNa}>
+                    <li onClick={() => (setSh(false))}>
                         <HashLink
                             smooth
                             to="#project">
                             Projects
                         </HashLink>
                     </li>
-                    <li onClick={shoNa}>
+                    <li onClick={() => (setSh(false))}>
                         <HashLink
                             smooth
                             to="#work">
                             Experience
                         </HashLink>
                     </li>
-                    <li onClick={shoNa}>
+                    <li onClick={() => (setSh(false))}>
                         <HashLink
                             smooth
                             to="/#contact">
