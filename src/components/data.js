@@ -267,7 +267,7 @@ const work = [
         location: "Sao Paulo",
         role: "Operations Analyst",
         about: "As an operations analyst, critical thinking was key in coming up with solution on the day to day activities of the company.",
-        stack: ["Excel", "Word", "Power point", "Budget Management", "Root cause analysis"]
+        stack: ["Excel", "Word", "Power point", "Budget management", "Root cause analysis", "Market place analysis", "Budget tracking", "KPI's", "OKR's"]
     },
     {
         id: 3,
@@ -275,8 +275,8 @@ const work = [
         date: "2019 - 2022",
         location: "Sao Paulo",
         role: "Telemarketing Specialist",
-        about: "As a web developer with more than 2 years of experience, I have honed my skills in various aspects of web development.",
-        stack: ["Customer support", "Negoiations", "Client Management",]
+        about: "Worked as a telemarketer to resolve and negotiate customers delinquent bills, and come up with a resolution that works for the customer and the client",
+        stack: ["Customer support", "Negoiations", "Client Management", "FDCPA"]
     },
 ]
 
