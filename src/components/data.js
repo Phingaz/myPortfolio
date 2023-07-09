@@ -258,7 +258,7 @@ const work = [
         location: "Sao Paulo",
         role: "Software consultant",
         about: "As a software consultant, it is important to think of solutions to existing problems, and problems that may arise. Come up with effective solutions with efficiency in mind.",
-        stack: ["NodeJs", "Github", "Jira", "Javascript", "React", "Agile"]
+        stack: ["NodeJs", "Git", "Github", "Jira", "Javascript", "React", "Agile", "Automation", "Linux", "Bash"]
     },
     {
         id: 2,
