@@ -152,12 +152,12 @@ const workflows = [
 const project = [
     {
         id: 1,
-        img: piiv1,
-        alt: "piiv1",
-        name: "First Portfolio",
-        link: "http://piiv1.netlify.app",
-        techStack: "Html - Css - Javascript - Bootstrap",
-        about: "My first portfolio showcasing my projects and things i learnt from tutorials and courses i took"
+        img: taskmanager,
+        alt: "taskmanager",
+        name: "My Task Manager App",
+        link: "http://piitask.netlify.app",
+        techStack: "React - CSS - Material Ui - Express - MongoDb - Mongoose - NodeJs",
+        about: "A full stack task manager app with the option to create a safe, encrypted personal account to store your personal task :)"
     },
     {
         id: 2,
@@ -166,16 +166,7 @@ const project = [
         name: "Weather App",
         link: "http://piiweather.netlify.app",
         techStack: "React - CSS - MaterialUi - API",
-        about: "Fully responsive weather app, that gets your estimated location and pulls the necessary data through Open weather api"
-    },
-    {
-        id: 3,
-        img: taskmanager,
-        alt: "taskmanager",
-        name: "My Task Manager App",
-        link: "http://piitask.netlify.app",
-        techStack: "React - CSS - Material Ui - Express - MongoDb - Mongoose - NodeJs",
-        about: "My first project after learning react, styled and personalized to keep tract of what projects to work on, more features to come :)"
+        about: "Fully responsive weather app, that gets your estimated location and pulls the necessary data through open weather api"
     },
     {
         id: 4,
@@ -258,7 +249,7 @@ const work = [
         location: "Sao Paulo",
         role: "Software consultant",
         about: "As a software consultant, it is important to think of solutions to existing problems, and problems that may arise. Come up with effective solutions with efficiency in mind.",
-        stack: ["NodeJs", "Git", "Github", "Jira", "Javascript", "React", "Agile", "Automation", "Linux", "Bash"]
+        stack: ["NodeJs", "Git", "Github", "Jira", "Javascript", "React", "Agile", "Automation", "Linux", "Bash", "Aws", "Project Management"]
     },
     {
         id: 2,
