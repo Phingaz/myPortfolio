@@ -1,7 +1,6 @@
 import dice from "../assets/img/diceGame.png"
 import pig from "../assets/img/pigGame.png"
 import number from "../assets/img/numberGuessing.png"
-import piiv1 from "../assets/img/piiv1.png"
 import login from "../assets/img/login.png"
 import scandi from "../assets/img/scandi.png"
 import weather from "../assets/img/weather.png"
