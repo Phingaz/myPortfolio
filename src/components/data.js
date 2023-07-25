@@ -8,6 +8,7 @@ import pimcalc from "../assets/img/pimcalc.png"
 import taskmanager from "../assets/img/taskmanager.png"
 import utility from "../assets/img/utility.png"
 import memgen from "../assets/img/memgen.png"
+import imgUploader from "../assets/img/imgUploader.png"
 
 const techs = [
     {
@@ -49,11 +50,6 @@ const techs = [
         id: 9,
         text: "Tailwind Css",
         alt: "tw"
-    },
-    {
-        id: 10,
-        text: "SQL",
-        alt: "sql"
     },
     {
         id: 11,
@@ -108,6 +104,18 @@ const techs = [
         id: 22,
         text: "Redux",
     },
+    {
+        id: 23,
+        text: "Sass",
+    },
+    {
+        id: 24,
+        text: "Git",
+    },
+    {
+        id: 25,
+        text: "Mongoose",
+    },
 ]
 
 const courses = [
@@ -156,10 +164,19 @@ const project = [
         name: "My Task Manager App",
         link: "http://piitask.netlify.app",
         techStack: "React - CSS - Material Ui - Express - MongoDb - Mongoose - NodeJs",
-        about: "A full stack task manager app with the option to create a safe, encrypted personal account to store your personal task :)"
+        about: "A full stack task manager app with the option to create a safe and encrypted personal account to store your personal task :)"
     },
     {
         id: 2,
+        img: imgUploader,
+        alt: "weather",
+        name: "Image Uploader",
+        link: "http://piiimageuploader.netlify.app",
+        techStack: "React - SASS - MaterialUi - API",
+        about: "A fullstack app masde developed with react and sass, you are able to upload images via an api call to a secure database",
+    },
+    {
+        id: 3,
         img: weather,
         alt: "weather",
         name: "Weather App",
