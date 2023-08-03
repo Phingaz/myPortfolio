@@ -9,6 +9,7 @@ import taskmanager from "../assets/img/taskmanager.png"
 import utility from "../assets/img/utility.png"
 import memgen from "../assets/img/memgen.png"
 import imgUploader from "../assets/img/imgUploader.png"
+import bmi from "../assets/img/bmi.png"
 
 const techs = [
     {
@@ -158,7 +159,7 @@ const workflows = [
 
 const project = [
     {
-        id: 1,
+        id: 12,
         img: taskmanager,
         alt: "taskmanager",
         name: "My Task Manager App",
@@ -167,16 +168,25 @@ const project = [
         about: "A full stack task manager app with the option to create a safe and encrypted personal account to store your personal task :)"
     },
     {
-        id: 2,
+        id: 11,
+        img: bmi,
+        alt: "bmi",
+        name: "Bmi Calculator",
+        link: "http://piibmi.netlify.app",
+        techStack: "React - SASS - MaterialUi - Css",
+        about: "A front-end focused react app to calculate your body mass index",
+    },
+    {
+        id: 10,
         img: imgUploader,
         alt: "weather",
         name: "Image Uploader",
         link: "http://piiimageuploader.netlify.app",
         techStack: "React - SASS - MaterialUi - API",
-        about: "A fullstack app masde developed with react and sass, you are able to upload images via an api call to a secure database",
+        about: "A fullstack app made and developed with react and sass, you are able to upload images via an api call to a secure database",
     },
     {
-        id: 3,
+        id: 9,
         img: weather,
         alt: "weather",
         name: "Weather App",
@@ -185,7 +195,7 @@ const project = [
         about: "Fully responsive weather app, that gets your estimated location and pulls the necessary data through open weather api"
     },
     {
-        id: 4,
+        id: 8,
         img: login,
         alt: "login",
         name: "Login App",
@@ -194,7 +204,7 @@ const project = [
         about: "A simple app to register user and verify login information, more features to come :)"
     },
     {
-        id: 5,
+        id: 7,
         img: utility,
         alt: "utility",
         name: "Utility App",
@@ -212,7 +222,7 @@ const project = [
         about: "Developed to help student calculate thier aggregated university score"
     },
     {
-        id: 7,
+        id: 5,
         img: scandi,
         alt: "scandi",
         name: "Scadiweb Interview",
@@ -221,7 +231,7 @@ const project = [
         about: "A fullstack app developed with react and node for scandiweb technical interview"
     },
     {
-        id: 8,
+        id: 4,
         img: memgen,
         alt: "memgen",
         name: "Meme Generator",
@@ -230,7 +240,7 @@ const project = [
         about: "Meme generator app"
     },
     {
-        id: 9,
+        id: 3,
         img: dice,
         alt: "dice",
         name: "Dice Game",
@@ -239,7 +249,7 @@ const project = [
         about: "A simple dice game"
     },
     {
-        id: 10,
+        id: 2,
         img: pig,
         alt: "pig",
         name: "Pig Game",
@@ -248,7 +258,7 @@ const project = [
         about: "A simple game"
     },
     {
-        id: 11,
+        id: 1,
         img: number,
         alt: "number",
         name: "Number Guessing Game",
