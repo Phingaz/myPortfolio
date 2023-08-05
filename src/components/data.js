@@ -163,7 +163,7 @@ const project = [
         id: 13,
         img: audiophile,
         alt: "audiophile",
-        name: "My Task Manager App",
+        name: "Audiophile",
         link: "http://piiaudio.netlify.app",
         techStack: "React - CSS - SCSS - Material Ui - React Router Dom",
         about: "A fully functional e-commerce website for customers to buy headphones, speakers and earphones"
