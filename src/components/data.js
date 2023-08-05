@@ -10,6 +10,7 @@ import utility from "../assets/img/utility.png"
 import memgen from "../assets/img/memgen.png"
 import imgUploader from "../assets/img/imgUploader.png"
 import bmi from "../assets/img/bmi.png"
+import audiophile from "../assets/img/audiophile.png"
 
 const techs = [
     {
@@ -158,6 +159,15 @@ const workflows = [
 ]
 
 const project = [
+    {
+        id: 13,
+        img: audiophile,
+        alt: "audiophile",
+        name: "My Task Manager App",
+        link: "http://piiaudio.netlify.app",
+        techStack: "React - CSS - SCSS - Material Ui - React Router Dom",
+        about: "A fully functional e-commerce website for customers to buy headphones, speakers and earphones"
+    },
     {
         id: 12,
         img: taskmanager,
