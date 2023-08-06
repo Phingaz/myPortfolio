@@ -165,6 +165,7 @@ const project = [
         alt: "audiophile",
         name: "Audiophile",
         link: "http://piiaudio.netlify.app",
+        github: "https://github.com/Phingaz/audio",
         techStack: "React - CSS - SCSS - Material Ui - React Router Dom",
         about: "A fully functional e-commerce website for customers to buy headphones, speakers and earphones"
     },
@@ -174,6 +175,7 @@ const project = [
         alt: "taskmanager",
         name: "My Task Manager App",
         link: "http://piitask.netlify.app",
+        github: "https://github.com/Phingaz/taskManager",
         techStack: "React - CSS - Material Ui - Express - MongoDb - Mongoose - NodeJs",
         about: "A full stack task manager app with the option to create a safe and encrypted personal account to store your personal task :)"
     },
@@ -183,6 +185,7 @@ const project = [
         alt: "bmi",
         name: "Bmi Calculator",
         link: "http://piibmi.netlify.app",
+        github: "https://github.com/Phingaz/bmi",
         techStack: "React - SASS - MaterialUi - Css",
         about: "A front-end focused react app to calculate your body mass index",
     },
@@ -192,6 +195,7 @@ const project = [
         alt: "weather",
         name: "Image Uploader",
         link: "http://piiimageuploader.netlify.app",
+        github: "https://github.com/Phingaz/imageUploader",
         techStack: "React - SASS - MaterialUi - API",
         about: "A fullstack app made and developed with react and sass, you are able to upload images via an api call to a secure database",
     },
@@ -201,6 +205,7 @@ const project = [
         alt: "weather",
         name: "Weather App",
         link: "http://piiweather.netlify.app",
+        github: "https://github.com/Phingaz/frontend/tree/main/weatherApp",
         techStack: "React - CSS - MaterialUi - API",
         about: "Fully responsive weather app, that gets your estimated location and pulls the necessary data through open weather api"
     },
@@ -210,6 +215,7 @@ const project = [
         alt: "login",
         name: "Login App",
         link: "http://pimunip.netlify.app",
+        github: "https://github.com/Phingaz/frontend/tree/main/unipLogin",
         techStack: "React - Css - NodeJs - Express - MongoDb",
         about: "A simple app to register user and verify login information, more features to come :)"
     },
@@ -219,6 +225,7 @@ const project = [
         alt: "utility",
         name: "Utility App",
         link: "http://piiutilities.netlify.app",
+        github: "https://github.com/Phingaz/frontend/tree/main/utilities",
         techStack: "React - Css - Api",
         about: "A simple utility app where you can shorten url links, generate qrcodes and generate random users. More features to come"
     },
@@ -228,6 +235,7 @@ const project = [
         alt: "pimcalc",
         name: "Pim Calculator",
         link: "http://pimcalculator.netlify.app",
+        github: "https://github.com/Phingaz/frontend/tree/main/pimCalculator",
         techStack: "React - Css",
         about: "Developed to help student calculate thier aggregated university score"
     },
@@ -237,6 +245,7 @@ const project = [
         alt: "scandi",
         name: "Scadiweb Interview",
         link: "http://piiscandiweb.netlify.app",
+        github: "https://github.com/Phingaz/frontend/tree/main/scandiWeb",
         techStack: "React - Css - NodeJs - Express - MySql",
         about: "A fullstack app developed with react and node for scandiweb technical interview"
     },
@@ -246,6 +255,7 @@ const project = [
         alt: "memgen",
         name: "Meme Generator",
         link: "http://piimemgen.netlify.app",
+        github: "https://github.com/Phingaz/frontend/tree/main/memGen",
         techStack: "React - Css",
         about: "Meme generator app"
     },
@@ -255,6 +265,7 @@ const project = [
         alt: "dice",
         name: "Dice Game",
         link: "http://piidicegame.netlify.app",
+        github: "https://github.com/Phingaz/frontend/tree/main/diceGame",
         techStack: "Html - Css - Javascript",
         about: "A simple dice game"
     },
@@ -264,6 +275,7 @@ const project = [
         alt: "pig",
         name: "Pig Game",
         link: "http://piipiggame.netlify.app",
+        github: "https://github.com/Phingaz/frontend/tree/main/pigGame",
         techStack: "React - Css",
         about: "A simple game"
     },
@@ -273,6 +285,7 @@ const project = [
         alt: "number",
         name: "Number Guessing Game",
         link: "http://piiguessinggame.netlify.app",
+        github: "https://github.com/Phingaz/frontend/tree/main/guessMyNumber",
         techStack: "React - Css",
         about: "A simple guessing game"
     },

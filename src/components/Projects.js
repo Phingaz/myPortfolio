@@ -20,10 +20,11 @@ export const Projects = () => {
                   <div>
                     <h4>{el.name}</h4>
                     <h6>{el.techStack}</h6>
-                    <p>{el.about} <a target="blank" href={el.link}>
-                        Learn more...
-                      </a>
-                    </p>
+                    <p>{el.about}</p>
+                  </div>
+                  <div className={styled.btns}>
+                    <a href={el.link} target="blank">Demo</a>
+                    <a href={el.github} target="blank">Code</a>
                   </div>
                 </div>
               </Reveal>
