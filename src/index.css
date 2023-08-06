@@ -32,3 +32,26 @@ body {
   background-color: var(--links);
   color: var(--hover);
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--links);
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.839);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--hover);
+  border-radius: var(--bd-radius);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  border-radius: var(--bd-radius);
+  background: var(--hover-b);
+}
