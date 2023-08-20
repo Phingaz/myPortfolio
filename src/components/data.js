@@ -216,6 +216,17 @@ const project = [
       "Fully responsive weather app, that gets your estimated location and pulls the necessary data through open weather api",
   },
   {
+    id: 14,
+    img: form,
+    alt: "form",
+    name: "Multi - step form",
+    link: "http://piiform.netlify.app",
+    github: "https://github.com/Phingaz/frontend/tree/main/utilities",
+    techStack: "React - Sass - Redux-Toolkit - Material Ui - React-router-dom",
+    about:
+      "A multi step form built with react router app and redux toolkit for state management",
+  },
+  {
     id: 8,
     img: login,
     alt: "login",
@@ -225,17 +236,6 @@ const project = [
     techStack: "React - Css - NodeJs - Express - MongoDb",
     about:
       "An app to register user and verify login information, more features to come :)",
-  },
-  {
-    id: 14,
-    img: form,
-    alt: "form",
-    name: "Mutli - step form",
-    link: "http://piiform.netlify.app",
-    github: "https://github.com/Phingaz/frontend/tree/main/utilities",
-    techStack: "React - Sass - Redux-Toolkit - Material Ui - React-router-dom",
-    about:
-      "A multi step form built with react router app and redux toolkit for state management",
   },
   {
     id: 7,
