@@ -221,7 +221,7 @@ const project = [
     alt: "form",
     name: "Multi - step form",
     link: "http://piiform.netlify.app",
-    github: "https://github.com/Phingaz/frontend/tree/main/utilities",
+    github: "https://github.com/Phingaz/form/tree/main",
     techStack: "React - Sass - Redux-Toolkit - Material Ui - React-router-dom",
     about:
       "A multi step form built with react router app and redux toolkit for state management",
