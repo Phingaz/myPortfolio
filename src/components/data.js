@@ -1,13 +1,13 @@
-import dice from "../assets/img/diceGame.png";
-import pig from "../assets/img/pigGame.png";
-import number from "../assets/img/numberGuessing.png";
-import login from "../assets/img/login.png";
-import scandi from "../assets/img/scandi.png";
+// import dice from "../assets/img/diceGame.png";
+// import pig from "../assets/img/pigGame.png";
+// import number from "../assets/img/numberGuessing.png";
+// import login from "../assets/img/login.png";
+// import scandi from "../assets/img/scandi.png";
+// import pimcalc from "../assets/img/pimcalc.png";
+// import utility from "../assets/img/utility.png";
+// import memgen from "../assets/img/memgen.png";
 import weather from "../assets/img/weather.png";
-import pimcalc from "../assets/img/pimcalc.png";
 import taskmanager from "../assets/img/taskmanager.png";
-import utility from "../assets/img/utility.png";
-import memgen from "../assets/img/memgen.png";
 import imgUploader from "../assets/img/imgUploader.png";
 import bmi from "../assets/img/bmi.png";
 import audiophile from "../assets/img/audiophile.png";
@@ -226,6 +226,7 @@ const project = [
     about:
       "A multi step form built with react router app and redux toolkit for state management",
   },
+  /*
   {
     id: 8,
     img: login,
@@ -310,6 +311,7 @@ const project = [
     techStack: "React - Css",
     about: "A simple guessing game",
   },
+  */
 ];
 const work = [
   {
