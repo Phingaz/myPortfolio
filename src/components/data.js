@@ -12,6 +12,7 @@ import imgUploader from "../assets/img/imgUploader.png";
 import bmi from "../assets/img/bmi.png";
 import audiophile from "../assets/img/audiophile.png";
 import form from "../assets/img/piiform.png";
+import space from "../assets/img/space.png";
 
 const techs = [
   {
@@ -182,6 +183,18 @@ const project = [
       "React - CSS - Material Ui - Express - MongoDb - Mongoose - NodeJs",
     about:
       "A full stack task manager app with the option to create a safe and encrypted personal account to store your personal task :)",
+  },
+  {
+    id: 13,
+    img: space,
+    alt: "space",
+    name: "Space Tourism",
+    link: "https://piispace.netlify.app",
+    github: "https://github.com/Phingaz/space",
+    techStack:
+      "React - TailWind - Styled Component",
+    about:
+      "",
   },
   {
     id: 11,
