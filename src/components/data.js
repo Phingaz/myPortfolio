@@ -192,9 +192,9 @@ const project = [
     link: "https://piispace.netlify.app",
     github: "https://github.com/Phingaz/space",
     techStack:
-      "React - TailWind - Styled Component",
+      "React - Tailwind - Styled Component - React-router-dom",
     about:
-      "",
+      "My approach to the space exploration challenge from frontend mentor using react router dom, outlets, tailwind for styling and React",
   },
   {
     id: 11,
