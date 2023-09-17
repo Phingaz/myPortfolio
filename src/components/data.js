@@ -1,7 +1,7 @@
 // import dice from "../assets/img/diceGame.png";
 // import pig from "../assets/img/pigGame.png";
 // import number from "../assets/img/numberGuessing.png";
-// import login from "../assets/img/login.png";
+import login from "../assets/img/login.png";
 // import scandi from "../assets/img/scandi.png";
 // import pimcalc from "../assets/img/pimcalc.png";
 // import utility from "../assets/img/utility.png";
@@ -13,151 +13,50 @@ import bmi from "../assets/img/bmi.png";
 import audiophile from "../assets/img/audiophile.png";
 import form from "../assets/img/piiform.png";
 import space from "../assets/img/space.png";
+import movie from "../assets/img/movie.png";
 
 const techs = [
-  {
-    id: 1,
-    text: "Figma",
-    alt: "figma",
-  },
-  {
-    id: 2,
-    text: "Html",
-    alt: "html",
-  },
-  {
-    id: 3,
-    text: "Css",
-    alt: "css",
-  },
-  {
-    id: 4,
-    text: "Javascript",
-    alt: "js",
-  },
-  {
-    id: 6,
-    text: "React",
-    alt: "react",
-  },
-  {
-    id: 7,
-    text: "Bootstrap",
-    alt: "bs",
-  },
-  {
-    id: 8,
-    text: "Material Ui",
-    alt: "mui",
-  },
-  {
-    id: 9,
-    text: "Tailwind Css",
-    alt: "tw",
-  },
-  {
-    id: 11,
-    text: "Python",
-    alt: "python",
-  },
-  {
-    id: 12,
-    text: "MySql",
-    alt: "mysql",
-  },
-  {
-    id: 13,
-    text: "MongoDb",
-    alt: "mdb",
-  },
-  {
-    id: 14,
-    text: "JWT",
-    alt: "jwt",
-  },
-  {
-    id: 15,
-    text: "Express",
-    alt: "express",
-  },
-  {
-    id: 16,
-    text: "Node.Js",
-  },
-  {
-    id: 17,
-    text: "Api's",
-  },
-  {
-    id: 18,
-    text: "GitHub",
-  },
-  {
-    id: 19,
-    text: "Jira",
-  },
-  {
-    id: 20,
-    text: "Confluence",
-  },
-  {
-    id: 21,
-    text: "Bitbucket",
-  },
-  {
-    id: 22,
-    text: "Redux",
-  },
-  {
-    id: 23,
-    text: "Sass",
-  },
-  {
-    id: 24,
-    text: "Git",
-  },
-  {
-    id: 25,
-    text: "Mongoose",
-  },
+  { id: 1, text: "Figma" },
+  { id: 2, text: "Html" },
+  { id: 3, text: "Css" },
+  { id: 4, text: "Javacript" },
+  { id: 4, text: "C#" },
+  { id: 4, text: "OOP" },
+  { id: 6, text: "React" },
+  { id: 6, text: "Next" },
+  { id: 6, text: "Flutter" },
+  { id: 7, text: "Boostrap" },
+  { id: 8, text: "Materal Ui" },
+  { id: 9, text: "Tailind Css" },
+  { id: 11, text: "Python" },
+  { id: 12, text: "MySql" },
+  { id: 13, text: "Mongob" },
+  { id: 14, text: "JWT" },
+  { id: 15, text: "Express" },
+  { id: 16, text: "Node.Js" },
+  { id: 17, text: "Api's" },
+  { id: 18, text: "GitHub" },
+  { id: 19, text: "Jira" },
+  { id: 20, text: "Confluence" },
+  { id: 21, text: "Bitbucket" },
+  { id: 22, text: "Redux" },
+  { id: 23, text: "Sass" },
+  { id: 24, text: "Git" },
+  { id: 25, text: "Mongoose" },
 ];
 
 const courses = [
-  {
-    id: 1,
-    course: "FullStack Web Development",
-  },
-  {
-    id: 2,
-    course: "Javascript Complete",
-  },
-  {
-    id: 3,
-    course: "Git and GitHub",
-  },
-  {
-    id: 4,
-    course: "Web Development with HTML, CSS and Javascript",
-  },
+  { id: 1, course: "FullStack Web Development" },
+  { id: 2, course: "Javascript Complete" },
+  { id: 3, course: "Git and GitHub" },
+  { id: 4, course: "Web Development with HTML, CSS and Javascript" },
 ];
 
 const workflows = [
-  {
-    id: 1,
-    course: " Mobile - First, Responsive Design",
-  },
-  {
-    id: 2,
-    course: "Cross Browser Testing & Debugging",
-  },
-  {
-    id: 3,
-    course: "Cross Functional Teams",
-  },
-  {
-    id: 4,
-    course: "Agile Development & Scrum",
-  },
+  { id: 1, course: " Mobile - First, Responsive Design" },
+  { id: 2, course: "Cross Browser Testing & Debugging" },
+  { id: 3, course: "Cross Functional Teams" },
+  { id: 4, course: "Agile Development & Scrum" },
 ];
 
 const project = [
@@ -185,26 +84,26 @@ const project = [
       "A full stack task manager app with the option to create a safe and encrypted personal account to store your personal task :)",
   },
   {
-    id: 13,
-    img: space,
-    alt: "space",
-    name: "Space Tourism",
-    link: "https://piispace.netlify.app",
-    github: "https://github.com/Phingaz/space",
-    techStack:
-      "React - TailWind - Styled Component",
+    id: 15,
+    img: movie,
+    alt: "movie",
+    name: "Movie Box",
+    link: "http://piimovie.netlify.app",
+    github: "https://github.com/Phingaz/movie",
+    techStack: "React - Tailwind - Material Ui - React-router-dom",
     about:
-      "",
+    "A movie box with the option to search for movies and tv shows, and get the latest trending movies and tv shows",
   },
   {
-    id: 11,
-    img: bmi,
-    alt: "bmi",
-    name: "Bmi Calculator",
-    link: "http://piibmi.netlify.app",
-    github: "https://github.com/Phingaz/bmi",
-    techStack: "React - SASS - MaterialUi - Css",
-    about: "A front-end focused react app to calculate your body mass index",
+    id: 14,
+    img: form,
+    alt: "form",
+    name: "Multi - step form",
+    link: "http://piiform.netlify.app",
+    github: "https://github.com/Phingaz/form/tree/main",
+    techStack: "React - Sass - Redux-Toolkit - Material Ui - React-router-dom",
+    about:
+    "A multi step form built with react router app and redux toolkit for state management",
   },
   {
     id: 10,
@@ -218,6 +117,16 @@ const project = [
       "A fullstack app made and developed with react and sass, you are able to upload images via an api call to a secure database",
   },
   {
+    id: 11,
+    img: bmi,
+    alt: "bmi",
+    name: "Bmi Calculator",
+    link: "http://piibmi.netlify.app",
+    github: "https://github.com/Phingaz/bmi",
+    techStack: "React - SASS - MaterialUi - Css",
+    about: "A front-end focused react app to calculate your body mass index",
+  },
+  {
     id: 9,
     img: weather,
     alt: "weather",
@@ -226,20 +135,18 @@ const project = [
     github: "https://github.com/Phingaz/frontend/tree/main/weatherApp",
     techStack: "React - CSS - MaterialUi - API",
     about:
-      "Fully responsive weather app, that gets your estimated location and pulls the necessary data through open weather api",
+    "Fully responsive weather app, that gets your estimated location and pulls the necessary data through open weather api",
   },
   {
-    id: 14,
-    img: form,
-    alt: "form",
-    name: "Multi - step form",
-    link: "http://piiform.netlify.app",
-    github: "https://github.com/Phingaz/form/tree/main",
-    techStack: "React - Sass - Redux-Toolkit - Material Ui - React-router-dom",
-    about:
-      "A multi step form built with react router app and redux toolkit for state management",
+    id: 13,
+    img: space,
+    alt: "space",
+    name: "Space Tourism",
+    link: "https://piispace.netlify.app",
+    github: "https://github.com/Phingaz/space",
+    techStack: "React - TailWind - Styled Component",
+    about: "",
   },
-  /*
   {
     id: 8,
     img: login,
@@ -251,6 +158,7 @@ const project = [
     about:
       "An app to register user and verify login information, more features to come :)",
   },
+  /*
   {
     id: 7,
     img: utility,
