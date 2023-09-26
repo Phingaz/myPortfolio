@@ -1,20 +1,20 @@
 import styled from "./Home.module.css"
 import Typewriter from 'typewriter-effect';
 import { HashLink } from 'react-router-hash-link';
-import { Reveal,FadeIn } from "./Reveal";
+import { Reveal } from "./Reveal";
 
 export const Home = () => {
     return (
         <div id="#" className={styled.home}>
             <div className={styled.name}>
-                <Reveal delay={0.25}>
+                <Reveal delay={0.25} once reveal>
                     <h1 className={styled.highlight}>MY NAME IS</h1>
                 </Reveal>
-                <Reveal delay={0.5}>
+                <Reveal delay={0.5} once reveal>
                     <h1 className={styled.accent}>PROSPER<span>.</span></h1>
                 </Reveal>
                 <div className={styled.info}>
-                    <Reveal delay={0.6}>
+                    <Reveal delay={0.6} once reveal>
                         <p>I </p>
                     </Reveal><Typewriter
                         options={{
@@ -27,7 +27,7 @@ export const Home = () => {
                         }}
                     />
                 </div>
-                <Reveal delay={0.75}>
+                <Reveal delay={0.75} once reveal>
                     <HashLink
                         smooth
                         to="#contact">
@@ -36,7 +36,7 @@ export const Home = () => {
                 </Reveal>
             </div>
 
-            <FadeIn delay={1}>
+            <Reveal fadeIn delay={1} once reveal>
                 <div className={styled.icons}>
                     <a className={styled.icons_item} href="https://www.linkedin.com/in/piinoya/" target="blank">
                         <i className="fa-brands fa-linkedin-in"></i>
@@ -49,7 +49,7 @@ export const Home = () => {
                         <i className="fa-solid fa-cloud-arrow-down"></i>
                     </a>
                 </div>
-            </FadeIn>
+            </Reveal>
         </div>
     )
 }
