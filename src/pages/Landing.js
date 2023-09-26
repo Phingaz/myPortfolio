@@ -20,6 +20,6 @@ export const Landing = () => {
 }
 
 export const startServer = () => {
-    fetch("https://centraldb.onrender.com/api/v1/email")
+    fetch("https://centraldb.onrender.com")
     return null
 }
