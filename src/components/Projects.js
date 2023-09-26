@@ -28,7 +28,7 @@ export const Projects = () => {
                   </div>
                   <div className={styled.btns}>
                     <a href={el.link} target="blank">
-                      Demo
+                      Live preview
                     </a>
                     <a href={el.github} target="blank">
                       Code

@@ -54,15 +54,15 @@
   min-height: 310px;
   border-radius: 10px;
   padding: 0 1rem;
-  border: 1px solid var(--links);
+  border: 1px solid var(--cards);
   transition: all 0.3s ease;
-  box-shadow: 0px 0px 10px 1px var(--links);
+  box-shadow: 0px 0px 5px 1px var(--cards);
 }
 
 .project:hover {
   transform: scale(1.03);
   border: 1px solid var(--hover);
-  box-shadow: 0px 0px 10px 1px var(--hover-b);
+  box-shadow: 0px 0px 5px 1px var(--hover-b);
 }
 
 .project img {
@@ -113,6 +113,7 @@
   border: 1px solid var(--hover);
   transition: all 0.3s ease;
   text-decoration: none;
+  font-size: 12px;
 }
 
 .project > .btns > a:hover {
@@ -121,12 +122,18 @@
 }
 
 .project > .btns > a:first-child {
-  border: 1px solid var(--links);
+  border: 1px solid var(--cards);
   animation: pulse 2s infinite;
 }
 
 .project > .btns > a:first-child:hover {
   animation: none;
+  border: 1px solid var(--links);
+}
+
+.project > .btns > a:nth-child(2):hover {
+  animation: none;
+  border: 1px solid var(--hover-b);
 }
 
 @media (max-width: 1170px) {
