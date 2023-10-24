@@ -17,7 +17,7 @@ export const Projects = () => {
             return (
               <Reveal reveal key={el.id} delay={0.2} always>
                 <div className={styled.project}>
-                  <a href={el.link} target="blank">
+                  <a className={ styled.img_wrapper} href={el.link} target="blank">
                     {" "}
                     <img src={el.img} alt={el.alt} />
                   </a>
