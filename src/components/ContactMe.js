@@ -96,7 +96,7 @@ export const ContactMe = () => {
             </Reveal>
           </div>
           <Reveal fadeIn always delay={0.8}>
-            <p className={styled.c}>Phingaz © 2023</p>
+            <p className={styled.c}>Phingaz © 2022</p>
           </Reveal>
         </div>
       </div>
