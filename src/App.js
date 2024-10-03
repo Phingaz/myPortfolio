@@ -6,8 +6,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  window.location.replace("https://pnoya.com");
-  return (
+   return (
     <div className="App">
       <RouterProvider router={router} />
     </div>
